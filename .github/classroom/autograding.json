@@ -1,0 +1,86 @@
+{
+  "tests": [
+    {
+      "name": "Test 1 - operaciones",
+      "setup": "g++ -o operaciones operaciones.cpp",
+      "run": "./operaciones",
+      "input": "10\n20\nS",
+      "output": "30",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 7
+    },
+    {
+      "name": "Test 2 - operaciones",
+      "setup": "g++ -o operaciones operaciones.cpp",
+      "run": "./operaciones",
+      "input": "10\n20\nK",
+      "output": "opcion incorrecta\n",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 6
+    },
+     {
+      "name": "Test 3 - operaciones",
+      "setup": "g++ -o operaciones operaciones.cpp",
+      "run": "./operaciones",
+      "input": "10\n20\nR",
+      "output": "-10",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 6
+    },
+     {
+      "name": "Test 4 - operaciones",
+      "setup": "g++ -o operaciones operaciones.cpp",
+      "run": "./operaciones",
+      "input": "10\n20\nM",
+      "output": "200",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 6
+    },
+    
+    {
+      "name": "Test 5 - suma pares y promedio",
+      "setup": "g++ -o sumaParesPromedio sumaParesPromedio.cpp",
+      "run": "./sumaParesPromedio",
+      "input": "",
+      "output": "2550\n50",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 25
+    },
+    {
+      "name": "Test 6 - tabla",
+      "setup": "g++ -o tablaCelsiusFarenheit  tablaCelsiusFarenheit.cpp",
+      "run": "./tablaCelsiusFarenheit",
+      "input": "40\n5\n20",
+      "output": "CELSIUS FARENHEIT\n40 104\n60 140\n80 176\n100 212\n120 248\n",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 25
+    },
+    {
+      "name": "Test 7 - serie",
+      "setup": "g++ -o serie  serie.cpp",
+      "run": "./serie",
+      "input": "1\n3\n25",
+      "output": "925",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    },
+     {
+      "name": "Test 8 - serie",
+      "setup": "g++ -o serie  serie.cpp",
+      "run": "./serie",
+      "input": "1\n3\n3",
+      "output": "12",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    }
+  ]
+}
+
