@@ -35,7 +35,7 @@
       "setup": "g++ -o arreglos arreglos.cpp",
       "run": "./arreglos",
       "input": "2\n10\n15\n20\n25\n30\n",
-      "output": "10\n20\n30Total = 60\nPromedio = 20\n",
+      "output": "10\n20\n30\nTotal = 60\nPromedio = 20\n",
       "comparison": "included",
       "timeout": 2,
       "points": 10
